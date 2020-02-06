@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    font-family: 'open sans', 'Arial', sans-serif;
+    font-weight: 300;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+
+  }
+
+.main-nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: black;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+/* .main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #85d85b;
+    border-radius: 3px;
+} */
+
+
+
+.btn {
+    padding: 10px 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+
+
+.btn-full{
+    color: #fff;
+    background-color: #85d85b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.btn-empty{
+    color: #85d85b;
+    background-color: #fff;
+    border: 1px solid #85d85b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.row{
+    display: flex;
+
+}
+
+
+
+.hero-text{
+ flex: 40%;
+ align-items: center;
+ height: 80vh;
+ padding: 150px 0 0 70px;
+ margin-left: 100px;
+}
+
+
+
+.header-image{
+    flex: 40%;
+}
+
+
+
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+span{
+    color: #85d85b;
+}
+
+
+p{
+ margin-bottom: 30px;
+ line-height: 20px;
+}
+
+
+
+.btn-start{
+    color: #fff;
+    background-color: #85d85b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.header-image img{
+    width: 300px;
+    height: 60vh;
+    position: relative;
+    left: 200px;
+    top: 80px;
+    border-radius: 10px;
+    opacity: 0.5;
+    
+}
+
+.front-img img{
+    width: 330px;
+    height: 80vh;
+    position: relative;
+    top: 20px;
+    right: 350px;;
+    border-radius: 10px;
+    box-shadow: 15px 10px 30px rgba(48, 47, 47, 0.623);
+    
+}
